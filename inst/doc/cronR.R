@@ -1,10 +1,10 @@
-## ---- include = FALSE----------------------------------------------------
+## ---- include = FALSE---------------------------------------------------------
 knitr::opts_chunk$set(comment = "#>", collapse = TRUE, eval = FALSE)
 
-## ---- include = FALSE----------------------------------------------------
+## ---- include = FALSE---------------------------------------------------------
 #  knitr::opts_chunk$set(comment = "#>", collapse = TRUE, eval = FALSE)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 #  library(cronR)
 #  f <- system.file(package = "cronR", "extdata", "helloworld.R")
 #  cmd <- cron_rscript(f)
@@ -33,7 +33,7 @@ knitr::opts_chunk$set(comment = "#>", collapse = TRUE, eval = FALSE)
 #  cron_ls()
 #  cron_clear(ask=FALSE)
 
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 #  ## log file is at the place where the helloworld.R script was located
 #  system.file("extdata", "helloworld.log", package = "cronR")
 

@@ -1,4 +1,4 @@
-7bd85c75656e04efdc6efe4708cdb6e8 *DESCRIPTION
+4c34a4b310f0fb4735cdab3ac6f62954 *DESCRIPTION
 a27b11cfdad83a023f97b11b6e3f7581 *LICENSE
 4f986be9fe5bdb3b54d98b93807c4256 *NAMESPACE
 97486da69ccd2fc0cb1c61e2eb4e6159 *R/cron_add.R
@@ -7,7 +7,7 @@ d37f81d8e36c24ae2aea830fbaea82e4 *R/cron_load.R
 a512c06b876ff77f1e714fb15a920719 *R/cron_ls.R
 9df6a8993ae02c94f82258eb13fafbda *R/cron_njobs.R
 f144b15505874e72e8415ab90d64a95e *R/cron_rm.R
-c5077e7627e65e39c72e5b60942cfb87 *R/cron_rscript.R
+56d58305821f0d58055d7c1917447c81 *R/cron_rscript.R
 5a7c05d8f585145f1e91970d51845683 *R/cron_rstudioaddin.R
 ba17e69464c345f17cc82ae2168ade8f *R/cron_save.R
 43987e05b6f27de6286c8bfd1847d10c *R/deparse_crontab.R
@@ -18,12 +18,12 @@ ba17e69464c345f17cc82ae2168ade8f *R/cron_save.R
 b14ab7827b84bf5a9b2fa720ddfd18c7 *R/parse_time_slots.R
 f2e6c0346fc1f9448a72a3db58d4a637 *R/pkg.R
 74c59020717fbd377d89a0afeb408c57 *R/wrap.R
-26ea8db1ec0ced5c3b551c6c9d463a06 *README.md
-6ad620b8914fb9d5703a01f24b2cab1d *build/vignette.rds
+eb5513c54caab1489b1348d2f2ebcd48 *README.md
+24708613d5495453a9e107e98e97ff71 *build/vignette.rds
 bbb81a0b4c5d6e3dfc373634962f2f7d *inst/NEWS
-67aa216a7972cf58ee55cff9cd99677d *inst/doc/cronR.R
+484fad7b2820c09ce9f15037d093a072 *inst/doc/cronR.R
 c091c72f50579e20287cf326b0b67f8e *inst/doc/cronR.Rmd
-9fbd89e1934ad881637d40ca95e3ff5c *inst/doc/cronR.html
+4c57ecbd11773b0b76f34b6ed0eaf599 *inst/doc/cronR.html
 9d8964e6c0d2490ebd00b69b676e4e81 *inst/extdata/example.cron
 e7da4a2d88f51381d88ce8e255c095f7 *inst/extdata/helloworld.R
 be3e85569be721f8f3e987c4fa0921b6 *inst/extdata/test.cron
@@ -34,7 +34,7 @@ be3e85569be721f8f3e987c4fa0921b6 *inst/extdata/test.cron
 87cec00eef0d0c875b681b15431d2a4e *man/cron_ls.Rd
 bfbf90bfd07ee36c599274ad42c04c35 *man/cron_njobs.Rd
 ff66939e52edd245b6359f8d7b15e6f9 *man/cron_rm.Rd
-d4c806955cf0b1daf20ae044d3fc05ee *man/cron_rscript.Rd
+cee6fcd073e44de2406aab0e9bd45cd0 *man/cron_rscript.Rd
 1bca812e51dc0d39d8437be50710eb75 *man/cron_rstudioaddin.Rd
 598402c9e7925e061207e1a8a1c71380 *man/cron_save.Rd
 cf9c73c34c3c520fa984a123f9f62a85 *tests/testthat.R

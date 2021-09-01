@@ -1,4 +1,4 @@
-4816a567671e1554ae623c7ca1c05352 *DESCRIPTION
+2f70c4afa8a029fefa24dd89df605f2b *DESCRIPTION
 a27b11cfdad83a023f97b11b6e3f7581 *LICENSE
 4f986be9fe5bdb3b54d98b93807c4256 *NAMESPACE
 97486da69ccd2fc0cb1c61e2eb4e6159 *R/cron_add.R
@@ -20,14 +20,17 @@ f2e6c0346fc1f9448a72a3db58d4a637 *R/pkg.R
 74c59020717fbd377d89a0afeb408c57 *R/wrap.R
 2c75f8c6cc7ee61343a21a1ebbd118f9 *README.md
 24708613d5495453a9e107e98e97ff71 *build/vignette.rds
-2613e73699c003175889cee23690c9ee *inst/NEWS
+6c637c694f88d4ce1c92a22627d828ce *inst/NEWS
 484fad7b2820c09ce9f15037d093a072 *inst/doc/cronR.R
 c091c72f50579e20287cf326b0b67f8e *inst/doc/cronR.Rmd
-100f81d00590e5526d8efca8c3f2ca6b *inst/doc/cronR.html
+32cde2c96f181750fd622a834ac86815 *inst/doc/cronR.html
 9d8964e6c0d2490ebd00b69b676e4e81 *inst/extdata/example.cron
 e7da4a2d88f51381d88ce8e255c095f7 *inst/extdata/helloworld.R
 be3e85569be721f8f3e987c4fa0921b6 *inst/extdata/test.cron
 8da93080aaa22d63165d833b66b69cd4 *inst/rstudio/addins.dcf
+5fa4da9fcc7bb8b5e59a940db489661f *inst/tinytest/test_cron_add.R
+f5e1ceab33e42c95d5be01d1df129c92 *inst/tinytest/test_general_tests.R
+4dfa889467205388d570af466072273d *inst/tinytest/test_verify_script_path.R
 031de73227790d402db8ed898184f7d7 *man/cron_add.Rd
 89fcfcb1db5d64f3c9d2e10c56e660ba *man/cron_clear.Rd
 47e341f9a1c8d7df5617b3e11dfe8039 *man/cron_load.Rd
@@ -37,10 +40,7 @@ ff66939e52edd245b6359f8d7b15e6f9 *man/cron_rm.Rd
 cee6fcd073e44de2406aab0e9bd45cd0 *man/cron_rscript.Rd
 42650039cc6eebcb8ff09eae76e379dd *man/cron_rstudioaddin.Rd
 598402c9e7925e061207e1a8a1c71380 *man/cron_save.Rd
-cf9c73c34c3c520fa984a123f9f62a85 *tests/testthat.R
-5ebbfab2ed8400fba2659d626018a8f0 *tests/testthat/test-cron_add.R
-6ea0d693cdfa137743a64675b3f7d2a5 *tests/testthat/test-general_tests.R
-4c266fae1fb36765908037e34a3ef5cd *tests/testthat/test-verify_script_path.R
+b490be135373ae3e2637bb3e9eb7429b *tests/tinytest.R
 a430a08beae934d326ab2aa286864f57 *vignettes/cronR-logo.png
 1666d25fcab0d2aaa583839229fc55b0 *vignettes/cronR-rstudioaddin.png
 c091c72f50579e20287cf326b0b67f8e *vignettes/cronR.Rmd

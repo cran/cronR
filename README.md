@@ -1,7 +1,7 @@
 cronR
 =========
 
-![cronR](vignettes/cronR-logo.png) 
+![cronR](tools/cronR-logo.png) 
 
 Schedule R scripts/processes with the cron scheduler. This allows R users working on Unix/Linux to automate R processes at specific timepoints from R itself.
 Note that if you are looking for a Windows scheduler, you might be interested in the R package taskscheduleR available at
@@ -25,7 +25,7 @@ RStudio add-in
 
 The package also contains an RStudio addin. If you install the package and use RStudio version 0.99.893 or later you can just click to schedule a task. Just click Addins > Schedule R scripts on Linux/Unix.
 
-![](vignettes/cronR-rstudioaddin.png) 
+![](tools/cronR-rstudioaddin.png) 
 
 - Alternatively, run `cronR::cron_rstudioaddin()` to open the addin interface. If you use that addin to schedule scripts, by default it will copy the R scripts to your current working directory and launch the copied scripts from there. A different directory can be specified by passing an argument to the `RscriptRepository` parameter `cronR::cron_rstudioaddin(RscriptRepository = "/path/to/your/deployment/directory")`
 - You can also set the `CRON_LIVE` environment variable to specify a default directory to copy scheduled scripts to. This can be done by putting something like `CRON_LIVE="/path/to/your/deployment/directory"` in your .Renviron or .Rprofile file. See ?Startup
@@ -38,7 +38,7 @@ Some example use cases are shown below, indicating to schedule a script at speci
 
 ```
 library(cronR)
-f <- system.file(package = "cronR", "extdata", "helloworld.R")
+f   <- system.file(package = "cronR", "extdata", "helloworld.R")
 cmd <- cron_rscript(f)
 cmd
 
@@ -47,7 +47,7 @@ cron_add(command = cmd, frequency = 'daily', at='7AM', id = 'test2')
 cron_njobs()
 
 cron_ls()
-cron_clear(ask=FALSE)
+cron_clear(ask = TRUE)
 cron_ls()
 
 cmd <- cron_rscript(f, rscript_args = c("productx", "arg2", "123"))
@@ -63,8 +63,11 @@ cron_add(cmd, frequency = 'monthly', id = 'job8', at = '10:30', days_of_month = 
 cron_add(cmd, frequency = '@reboot', id = 'job9', description = 'Good morning')
 cron_add(cmd, frequency = '*/15 * * * *', id = 'job10', description = 'Every 15 min')   
 cron_ls()
-cron_clear(ask=FALSE)
+cron_clear(ask = TRUE)
 ```
+
+By default, when you use the functions `cron_add`, `cron_rm`, `cron_clear`, `cron_load`, a prompt will ask for your permission to update the cron schedule, unless you put the argument `ask=FALSE` in each of these functions, in which case you automatically allow to update the schedule. (new since R package version 0.6.0)
+
 
 Install
 -----------

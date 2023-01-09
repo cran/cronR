@@ -1,7 +1,7 @@
 Package: cronR
 Type: Package
 Title: Schedule R Scripts and Processes with the 'cron' Job Scheduler
-Version: 0.6.2
+Version: 0.6.5
 Authors@R: c(
     person("Jan", "Wijffels", role = c("aut", "cre", "cph"), email = "jwijffels@bnosac.be"), 
     person("BNOSAC", role = "cph"), 
@@ -16,10 +16,11 @@ License: MIT + file LICENSE
 OS_type: unix
 SystemRequirements: cron
 RoxygenNote: 7.1.1
+Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2022-02-17 08:40:30 UTC; jwijffels
+Packaged: 2023-01-09 08:42:48 UTC; jwijffels
 Author: Jan Wijffels [aut, cre, cph],
   BNOSAC [cph],
   Kevin Ushey [cph]
 Repository: CRAN
-Date/Publication: 2022-02-17 11:40:05 UTC
+Date/Publication: 2023-01-09 09:50:12 UTC

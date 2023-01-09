@@ -1,6 +1,20 @@
 Package: cronR
 ================
 
+Version: 0.6.5 [2023-01-06]
+
+- cron_rscript: fix 'the condition has length > 1' when passing on rscript_args  
+
+Version: 0.6.4 [2022-11-29]
+
+- cron_add, cron_rm now also allow to add/remove cron jobs from another user by passing the user argument
+
+Version: 0.6.3 [2022-05-09]
+
+- cron_rscript gains an argument, type, which allows for different command types such as those that generate an output on error. The current command type is the "default" value.
+- cron_rscript gains an argument, ... allowing to add extra options specific to the type
+- Changes to deparse_crontab(): all cronR jobs will be placed at the bottom of the crontab now instead of the top.
+
 Version: 0.6.2 [2022-02-16]
 
 - Call "crontab -r" without "-u user" when the user parameter is empty.
